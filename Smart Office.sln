@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart Office", "Smart Office\Smart Office.csproj", "{56DC3C05-B03E-4B93-AD48-32EBD4323B65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart Office Test", "Smart Office Test\Smart Office Test.csproj", "{9F64D810-30B8-4C39-B1B2-85964E2733F6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{56DC3C05-B03E-4B93-AD48-32EBD4323B65} = {56DC3C05-B03E-4B93-AD48-32EBD4323B65}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56DC3C05-B03E-4B93-AD48-32EBD4323B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56DC3C05-B03E-4B93-AD48-32EBD4323B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56DC3C05-B03E-4B93-AD48-32EBD4323B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56DC3C05-B03E-4B93-AD48-32EBD4323B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F64D810-30B8-4C39-B1B2-85964E2733F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F64D810-30B8-4C39-B1B2-85964E2733F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F64D810-30B8-4C39-B1B2-85964E2733F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F64D810-30B8-4C39-B1B2-85964E2733F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00F3592C-EBD9-4B4D-BE7C-9BFE4D6C8611}
+	EndGlobalSection
+EndGlobal

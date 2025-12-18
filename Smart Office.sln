@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart Office Test", "Smart 
 		{56DC3C05-B03E-4B93-AD48-32EBD4323B65} = {56DC3C05-B03E-4B93-AD48-32EBD4323B65}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User Interface", "User Interface\User Interface.csproj", "{01A8DF73-D7F8-49F8-A321-E6C9A031181A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{9F64D810-30B8-4C39-B1B2-85964E2733F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F64D810-30B8-4C39-B1B2-85964E2733F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F64D810-30B8-4C39-B1B2-85964E2733F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01A8DF73-D7F8-49F8-A321-E6C9A031181A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A8DF73-D7F8-49F8-A321-E6C9A031181A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A8DF73-D7F8-49F8-A321-E6C9A031181A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A8DF73-D7F8-49F8-A321-E6C9A031181A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
